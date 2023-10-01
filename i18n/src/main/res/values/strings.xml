@@ -646,7 +646,7 @@
     <string name="cancelled">Cancelled</string>
     <string name="on_hiatus">On hiatus</string>
     <string name="add_to_library">Add to library</string>
-    <string name="in_library">In library</string>
+    <string name="in_library">In \nlibrary</string>
     <!-- missing confirm menu after Compose rewrite #7901 -->
     <string name="remove_from_library">Remove from library</string>
     <string name="unknown_title">Unknown title</string>
@@ -814,7 +814,7 @@
     <!-- Stats screen -->
     <string name="label_overview_section">Overview</string>
     <string name="label_completed_titles">Completed entries</string>
-    <string name="label_read_duration">Read duration</string>
+    <string name="label_read_duration">Read \n duration</string>
     <string name="label_titles_section">Entries</string>
     <string name="label_titles_in_global_update">In global update</string>
     <string name="label_total_chapters">Total</string>

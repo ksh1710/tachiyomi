@@ -70,15 +70,16 @@ private fun OverviewSection(
                 icon = Icons.Outlined.CollectionsBookmark,
             )
             StatsOverviewItem(
-                title = data.completedMangaCount.toString(),
-                subtitle = stringResource(R.string.label_completed_titles),
-                icon = Icons.Outlined.LocalLibrary,
-            )
-            StatsOverviewItem(
                 title = readDurationString,
                 subtitle = stringResource(R.string.label_read_duration),
                 icon = Icons.Outlined.Schedule,
             )
+            StatsOverviewItem(
+                title = data.completedMangaCount.toString(),
+                subtitle = stringResource(R.string.label_completed_titles),
+                icon = Icons.Outlined.LocalLibrary,
+            )
+
         }
     }
 }
